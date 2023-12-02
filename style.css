@@ -1,0 +1,94 @@
+form{
+display: grid;
+width: 20%;
+}
+
+li{
+display: grid;
+width: 20%;
+    margin: 15px;
+
+}
+ul{
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#postForm {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 5px 0px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button.edit {
+  background-color: #2196F3;
+}
+
+button.delete {
+  background-color: #f44336;
+}
+
+button.edit,
+button.delete {
+  color: #fff;
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
